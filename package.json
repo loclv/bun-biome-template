@@ -1,5 +1,5 @@
 {
-  "name": "test-ts-with-bun",
+  "name": "bun-biome-template",
   "module": "index.ts",
   "type": "module",
   "scripts": {
@@ -19,5 +19,6 @@
     "yarn": "Please use Bun",
     "pnpm": "Please use Bun",
     "bun": ">=1.0.19"
-  }
+  },
+  "private": true
 }
