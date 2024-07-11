@@ -2,6 +2,9 @@
 
 A Bun Biome starter template.
 
+- Bun is a fast JavaScript and TypeScript runtime/toolkit - <https://bun.sh/>
+- Biome is a fast formatter and linter for JavaScript, TypeScript, JSX, and JSON - <https://biomejs.dev/>
+
 To install dependencies:
 
 ```bash
