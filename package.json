@@ -1,0 +1,23 @@
+{
+  "name": "test-ts-with-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "lint": "bunx @biomejs/biome lint --write ./src",
+    "format": "bunx @biomejs/biome format --write ./src"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "npm": "Please use Bun",
+    "yarn": "Please use Bun",
+    "pnpm": "Please use Bun",
+    "bun": ">=1.0.19"
+  }
+}
